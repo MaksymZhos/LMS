@@ -1,8 +1,19 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace MyWebApp.Models
 {
     public class LoginViewModel
     {
-        public string Username { get; set; } = string.Empty; // Initialize with default value
-        public string Password { get; set; } = string.Empty; // Initialize with default value
+        [Required]
+        [Display(Name = "Username")]
+        public string Username { get; set; } = string.Empty;
+
+        [Required]
+        [DataType(DataType.Password)]
+        [Display(Name = "Password")]
+        public string Password { get; set; } = string.Empty;
+
+        [Display(Name = "Remember me?")]
+        public bool RememberMe { get; set; }
     }
 }
