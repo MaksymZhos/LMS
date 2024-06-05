@@ -8,3 +8,114 @@
 __pycache__/model.cpython-311.pyc
 .coverage
 .vscode
+
+# Ignore build output and restore files.
+bin/
+obj/
+
+# VS Code
+.vscode/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.dbmdl
+*.jfm
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# Rider directories
+.idea/
+.idea/*
+.idea_modules/
+.idea_modules/*
+.idea_httpRequests/
+.idea_httpRequests/*
+
+# Rider files
+*.sln.iml
+*.sln.iws
+*.sln.recentFiles
+
+# DotNet
+*.log
+*.vs/
+.vscode/
+*.db
+project.lock.json
+project.fragment.lock.json
+artifacts/
+project.json
+project.fragment.json
+project.lock.json
+dnx-app/
+
+# Publish output
+publish/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Local History
+.localhistory
+
+# Backup & report files from converting an old project file to a newer
+# Visual Studio version. Backup files are not needed, because we have git ;-)
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+ServiceFabricBackup/
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# Business Intelligence projects
+*.rdl.data
+*.bim.layout
+*.bim_*.settings
+
+# Microsoft Fakes
+FakesAssemblies/
+
+# Node.js
+node_modules/
+
+# Tooling
+.dump/
+.vspscc
+.vssscc
+
+# Visual Studio database project files
+*.dbmdl
+*.dbproj
